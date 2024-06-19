@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Zephyr build tool",
+    "environmentVariables": {
+      "ZEPHYR_BASE": "${command:mcuxpresso.repoPath}/zephyr",
+      "ZEPHYR_SDK_INSTALL_DIR": "${command:mcuxpresso.toolchainPath}/../"
+    },
+    "cmakeSettings": {
+      "BOARD": "frdm_mcxn947/mcxn947/cpu0",
+      "APP_DIR": "${workspaceFolder}"
+    },
+    "keep": true,
+    "environmentSetupScript": "${command:mcuxpresso.venvActivateScriptPath}"
+  }
+]

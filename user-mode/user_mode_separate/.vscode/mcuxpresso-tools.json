@@ -1,0 +1,21 @@
+{
+  "version": "1.4",
+  "toolchainPath": "C:/Users/RoyJamil/zephyr-sdk-0.16.5/arm-zephyr-eabi",
+  "linkedProjects": [],
+  "trustZoneType": "none",
+  "multicoreType": "none",
+  "debug": {
+    "linkserver": {
+      "device": "MCXN947:FRDM-MCXN947",
+      "core": "cm33_core0"
+    },
+    "pemicro": {},
+    "segger": {}
+  },
+  "projectType": "zephyr-freestanding",
+  "sdk": {
+    "boardId": "frdm_mcxn947/mcxn947/cpu0",
+    "version": "",
+    "path": "c:\\Users\\RoyJamil\\Desktop\\zephyr_code\\zephyrproject"
+  }
+}
